@@ -22,7 +22,7 @@ void SysTick_Handler(void)
 {
 	static int x = 0;
 	if (x++ > 1000) {
-		Board_LED_Toggle(1);
+		Board_LED_Toggle(0);
 		x = 0;
 	}
 }
