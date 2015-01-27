@@ -13,7 +13,7 @@ void SysTick_Handler(void)
 int main(void) {
     SystemCoreClockUpdate();
     Board_Init();
-
+    // change to master
 	SysTick_Config(SystemCoreClock / 1000);
 
 	while (1) {
