@@ -13,7 +13,7 @@ void SysTick_Handler(void)
 int main(void) {
     SystemCoreClockUpdate();
     Board_Init();
-    // merged branch
+    // master change
 	SysTick_Config(SystemCoreClock / 1000);
 
 	while (1) {
