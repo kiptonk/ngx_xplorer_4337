@@ -14,6 +14,7 @@ int main(void) {
     SystemCoreClockUpdate();
     Board_Init();
     // branch revision
+    // new change
 	SysTick_Config(SystemCoreClock / 1000);
 
 	while (1) {
