@@ -15,6 +15,7 @@ int main(void) {
     Board_Init();
     // branch revision
     // new change
+    // merging master change
 	SysTick_Config(SystemCoreClock / 1000);
 
 	while (1) {
